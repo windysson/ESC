@@ -1,12 +1,3 @@
-// Used in Mux8Way16
-/**
- * 8-way multiplexor:
- * out = a if sel == 000
- *       b if sel == 001
- *       etc.
- *       h if sel == 111
- */
-
 CHIP Mux8Way {
     IN a, b, c, d,
        e, f, g, h,
