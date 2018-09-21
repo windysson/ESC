@@ -53,7 +53,7 @@
     A=M
     M=D
 
-    // incrementar um de currentScreenRegister (isso pintara o lado direito dos pixels no proximo loop)
+    // incrementar um de currentScreenRegister
     @currentScreenRegister
     M=M+1
 
@@ -66,7 +66,7 @@
     @START
     D; JEQ
 
-    // Se numScreenRegistersToPaint não for 0, continue pintando
+    // Se numScreenRegistersToPaint não for 0, continua
     @PAINT
     0; JMP
 
