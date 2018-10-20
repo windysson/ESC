@@ -12,7 +12,5 @@ def stack_initializer():
 
 
 def program_starter():
-    """
-    Starts the execution of the program by calling Sys.init
-    """
+
     return call_handler('Sys.init', '0')
